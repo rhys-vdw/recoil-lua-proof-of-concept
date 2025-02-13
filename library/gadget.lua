@@ -1,11 +1,7 @@
 ---@meta
 ---@diagnostic disable:deprecated
 
----DO NOT USE THIS IN YOUR CODE.
----@deprecated
-__class = {}
-
----@class Gadget
+---@class Gadget : SyncedCallins
 __class.Gadget = {}
 
 ---Foo callin
