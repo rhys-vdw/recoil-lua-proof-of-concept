@@ -23,4 +23,5 @@ function __class.Gadget:Bar(a, b); end
 ---```lua
 ---local gadget = CreateGadget()
 ---```
-gadget = __class.Gadget
+gadget = __class.Gadget ---@type any
+-- NOTE: `@type any` is used to workaround for https://github.com/LuaLS/lua-language-server/issues/3074
