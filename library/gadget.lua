@@ -17,4 +17,10 @@ function __class.Gadget:Foo(n); end
 ---@param b string
 function __class.Gadget:Bar(a, b); end
 
+---@deprecated
+---Prefer to use `CreateGadget()`
+---
+---```lua
+---local gadget = CreateGadget()
+---```
 gadget = __class.Gadget

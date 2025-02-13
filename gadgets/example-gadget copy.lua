@@ -1,4 +1,3 @@
----@class myGadget : Gadget
 local gadget = CreateGadget()
 
 ---@param a string

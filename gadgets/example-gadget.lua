@@ -1,3 +1,5 @@
+local gadget = CreateGadget()
+
 ---@param a string
 ---@param b string
 ---@return string result
