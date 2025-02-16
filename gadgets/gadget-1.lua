@@ -1,5 +1,4 @@
-local create = require "create"
-local gadget = create.gadget()
+local gadget = gadget ---@type Gadget
 
 ---@param a string
 ---@param b string

@@ -1,5 +1,4 @@
-local create = require "create"
-local gadget = create.gadget()
+local gadget = gadget ---@type Gadget
 
 --Inherited callin works.
 function gadget:SyncedCallin(n); end
